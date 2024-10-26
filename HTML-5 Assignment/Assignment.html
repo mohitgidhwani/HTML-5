@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container,
+        .container-svg {
+            border: 5px solid black;
+            height: 500px;
+            width: 900px;
+            margin: 50px auto;
+            padding: 10px;
+        }
+
+        .container-svg {
+            margin-top: 100px;
+            display: block;
+        }
+
+        svg{
+            /* border: 5px solid black; */
+        }
+
+
+        .first {
+            border: 5px solid black;
+            margin-top: 150px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- first module start -->
+    <h1 style="text-align: center; font-size: 50px;">(1) Video Tag</h1>
+    <video width="100%" height="700px" src="VALORANT__2023-07-16__01-30-34.mp4" controls></video>
+    <!-- first module end -->
+
+
+
+    <!-- second module start -->
+    <h1 style="text-align: center; font-size: 50px;">(2) Audio Tag</h1>
+    <audio style="margin: 100px auto; display: block;" src="" controls></audio>
+    <!-- second module end -->
+
+
+    <!-- canvasmodule start -->
+
+    <h1 style="text-align: center; font-size: 50px;">(3) Canvas Tag</h1>
+    <div class="container">
+        <canvas class="first" height="200px" width="200px"></canvas>
+    </div>
+    <!-- canvasmodule start -->
+
+
+    <!-- svg module start -->
+    <h1 style="text-align: center; font-size: 50px;">(4) SVG Tag</h1>
+    <div class="container-svg">
+        <svg width="200px" height="200px">
+            <rect width="200" height="200" fill="orange">
+        </svg>
+        <svg width="200px" height="200px">
+            
+            <polygon points="100,10 190,190 10,190" fill="yellow">
+        </svg>
+        <svg width="200px" height="200px">
+            <rect width="100px" height="300px" fill="purple"/>
+        </svg>
+    </div>
+    <!-- svg module end -->
+</body>
+
+</html>
